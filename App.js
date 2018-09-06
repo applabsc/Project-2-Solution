@@ -48,15 +48,16 @@ export default class TodoList extends Component {
     };
 
     deleteTask = i => {
+        console.log("Deleting", i);
         this.setState(
             prevState => {
-                console.log(prevState.tasks);
-                let tasks = prevState.tasks
+                // New tasks is a DEEP COPY of prevState.tasks
+                // Slice does the deep copy for us, otherwise we'd be modifying  the array passed by reference
+                let newTasks = prevState.tasks.slice();
 
-                tasks.splice(i, 1);
-                console.log(tasks);
+                newTasks.splice(i, 1);
 
-                return { tasks: tasks };
+                return { tasks: newTasks };
             },
         )
     };
