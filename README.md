@@ -9,7 +9,7 @@ When the user presses the return button on the keyboard, a new task will be adde
 
 ![](https://storage.googleapis.com/slite-api-files-production/files/e53ee156-32c8-44ac-88e2-de996d2d6c0c/LoginScreens.png)
 
-![](https://s3-us-west-1.amazonaws.com/applab-sc/Curriculum/ToDoList.gif)
+![](https://s3-us-west-1.amazonaws.com/applab-sc/Curriculum/ezgif-4-2ab8c9fae1.gif)
 
 ## Getting Started
 * Clone this repository to your computer: `git clone https://github.com/applabsc/Project-2-Starter.git`
