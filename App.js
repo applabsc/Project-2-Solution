@@ -52,9 +52,15 @@ export default class TodoList extends Component {
         this.setState(
             prevState => {
                 // New tasks is a DEEP COPY of prevState.tasks
-                // Slice does the deep copy for us, otherwise we'd be modifying  the array passed by reference
+                // Slice does the deep copy for us, otherwise we'd be modifying the array passed by reference
                 let newTasks = prevState.tasks.slice();
 
+                // We use the splice function to remove the element at index i from the array
+                // DOCUMENTATION FOR SPLICE FUNCTION
+                // The splice method can be used to add or remove elements from an array.
+                //    The first argument specifies the location at which to begin adding or removing elements.
+                //    The second argument specifies the number of elements to remove.
+                //    The third and subsequent arguments are optional; they specify elements to be added to the array.
                 newTasks.splice(i, 1);
 
                 return { tasks: newTasks };
