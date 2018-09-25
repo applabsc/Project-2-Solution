@@ -5,7 +5,7 @@ The task is to build an app that looks similar to the one below.
 
 When the user presses the return button on the keyboard, a new task will be added to the list fo tasks, and when the user presses the "X" button, the task will be deleted.
 
-[]https://s3-us-west-1.amazonaws.com/applab-sc/Curriculum/ToDoList.gif
+[](https://s3-us-west-1.amazonaws.com/applab-sc/Curriculum/ToDoList.gif)
 
 ## Getting Started
 * Clone this repository to your computer: `git clone https://github.com/applabsc/Project-2-Starter.git`
